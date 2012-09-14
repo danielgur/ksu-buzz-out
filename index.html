@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>KSU Buzz Out App</title>
+
+<!-- jQuery Mobile imports -->
+<link href="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.css" rel="stylesheet" type="text/css"/>
+<script src="http://code.jquery.com/jquery-1.5.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
+
+<!-- Custom imports -->
+<link href="custom_style.css" rel="stylesheet" type="text/css"/>
+
+</head
+
+<body>
+
+<!-- The home page -->
+<div data-role="page" id="home">
+    <div data-role="header">
+        <h1><img src="buzzLogo.png" width="220" /></h1>
+    </div>
+    <div class="choice_list">
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true">
+            <li><a href="#food"><img src="iconFood.png" height="80px" width="80px"/><h1>Food</h1></a></li>
+            <li><a href="#drinks"><img src="iconBars.png" height="80px" width="80px"/><h1>Drinks</h1></a></li>
+            <li><a href="#events"><img src="iconMessage.png" height="80px" width="80px"/><h1>Events</h1></a></li>
+            <li><a href="#cabs"><img src="iconTaxi.png" height="80px" width="80px"/><h1>Cabs</h1></a></li>
+        </ul>
+    </div>
+    <div style="padding-top:30px"></div>
+    </div>
+    <div data-role="footer">
+        <img src="KentWiredLogo.png" height="30px" style="padding-left:70%" />
+    </div>
+</div>
+
+<!-- The food page -->
+<div data-role="page" id="food">
+    <div data-role="header">
+        <h1>KSU Buzz Out - Food</h1>
+    </div>
+    <div data-role="content">
+        Content
+        <div id="test"></div>
+    </div>
+    <div data-role="footer">
+        <h4>Page Footer</h4>
+    </div>
+</div>
+
+<!-- The drinks page -->
+<div data-role="page" id="drinks">
+    <div data-role="header">
+        <h1>KSU Buzz Out - Drinks</h1>
+    </div>
+    <div data-role="content">
+        Content
+    </div>
+    <div data-role="footer">
+        <h4>Page Footer</h4>
+    </div>
+</div>
+
+<!-- The events page -->
+<div data-role="page" id="events">
+    <div data-role="header">
+        <h1>KSU Buzz Out - Events</h1>
+    </div>
+    <div data-role="content">
+        Content
+    </div>
+    <div data-role="footer">
+        <h4>Page Footer</h4>
+    </div>
+</div>
+
+<!-- The cab page -->
+<div data-role="page" id="cabs">
+    <div data-role="header">
+        <h1>KSU Buzz Out - Cabs</h1>
+    </div>
+    <div data-role="content">
+        <a data-role="button" data-icon="grid" href="tel:2169705010">Call a cab</a>
+        <div data-role="collapsible" data-collapsed="true">
+            <h3>Send a message</h3>
+            <p>I'm the collapsible content. By default I'm closed, but you can click the header to open me.</p>
+        </div>
+    </div>
+    <div data-role="footer">
+        <h4>Page Footer</h4>
+    </div>
+</div>
+
+</body>
+</html>
