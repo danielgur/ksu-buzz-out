@@ -3,7 +3,7 @@
 ###### First priority:
 * Add all the functionality to the frontend
 * Once static pages are done, need to add dynamic functionality
-* Build the server
+* ~~Build the server~~
 * Get the frontend to make RPCs to the server and use the response to fill out fields
 
 ###### Second priority:
